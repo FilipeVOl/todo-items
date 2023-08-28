@@ -5,3 +5,18 @@
 .container {
     border: 1px solid black;
 }
+
+.task-div{
+    display: flex;
+    margin: 1em;
+    background-color: lightblue;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#to-do-form {
+    grid-column: 2;
+}

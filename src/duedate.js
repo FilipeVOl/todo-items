@@ -8,7 +8,7 @@ const createDueDate = () => {
     const container = document.createElement('div')
     container.classList.add('container')
 
-   const date = format(new Date(), "'Today is a '")
+   const date = format(new Date(), "'Today is a 'eeee")
 
     console.log(date)
 
